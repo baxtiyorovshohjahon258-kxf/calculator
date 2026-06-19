@@ -113,7 +113,6 @@
 
 
 
-
 # while True:
 #     print("1", "yig'indini hisoblang")
 #     print("2", "ayirmani hisoblang")
