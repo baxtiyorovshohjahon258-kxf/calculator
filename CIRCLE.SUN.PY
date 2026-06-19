@@ -1,0 +1,14 @@
+from turtle import Pen as Pen, RawPen as RawPen, RawTurtle as RawTurtle, Screen as Screen, ScrolledCanvas as ScrolledCanvas, Shape as Shape, Terminator as Terminator, Turtle as Turtle, TurtleScreen as TurtleScreen, Vec2D as Vec2D, addshape as addshape, back as back, backward as backward, begin_fill as begin_fill, begin_poly as begin_poly, bgcolor as bgcolor, bgpic as bgpic, bk as bk, bye as bye, circle as circle, clear as clear, clearscreen as clearscreen, clearstamp as clearstamp, clearstamps as clearstamps, clone as clone, color as color, colormode as colormode, degrees as degrees, delay as delay, distance as distance, done as done, dot as dot, down as down, end_fill as end_fill, end_poly as end_poly, exitonclick as exitonclick, fd as fd, fill as fill, fillcolor as fillcolor, filling as filling, forward as forward, get_poly as get_poly, get_shapepoly as get_shapepoly, getcanvas as getcanvas, getpen as getpen, getscreen as getscreen, getshapes as getshapes, getturtle as getturtle, goto as goto, heading as heading, hideturtle as hideturtle, home as home, ht as ht, isdown as isdown, isvisible as isvisible, left as left, listen as listen, lt as lt, mainloop as mainloop, mode as mode, no_animation as no_animation, numinput as numinput, onclick as onclick, ondrag as ondrag, onkey as onkey, onkeypress as onkeypress, onkeyrelease as onkeyrelease, onrelease as onrelease, onscreenclick as onscreenclick, ontimer as ontimer, pd as pd, pen as pen, pencolor as pencolor, pendown as pendown, pensize as pensize, penup as penup, poly as poly, pos as pos, position as position, pu as pu, radians as radians, register_shape as register_shape, reset as reset, resetscreen as resetscreen, resizemode as resizemode, right as right, rt as rt, save as save, screensize as screensize, seth as seth, setheading as setheading, setpos as setpos, setposition as setposition, setundobuffer as setundobuffer, setup as setup, setworldcoordinates as setworldcoordinates, setx as setx, sety as sety, shape as shape, shapesize as shapesize, shapetransform as shapetransform, shearfactor as shearfactor, showturtle as showturtle, speed as speed, st as st, stamp as stamp, teleport as teleport, textinput as textinput, tilt as tilt, tiltangle as tiltangle, title as title, towards as towards, tracer as tracer, turtles as turtles, turtlesize as turtlesize, undo as undo, undobufferentries as undobufferentries, up as up, update as update, width as width, window_height as window_height, window_width as window_width, write as write, write_docstringdict as write_docstringdict, xcor as xcor, ycor as ycor
+speed(9999)
+bgcolor("black")
+colors = ['red' , 'blue']
+hideturtle()
+for i in range(1220):
+    goto(0 ,0)
+    color(colors[i % 2])
+    forward(130)
+    left(3)
+    circle(50)
+    forward(130)
+    right(180)
+done()
